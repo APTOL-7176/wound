@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "DamageHandlerMixin",
+    "WoundRecoveryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
